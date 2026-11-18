@@ -1,0 +1,7 @@
+name: accion-sin-sha
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
