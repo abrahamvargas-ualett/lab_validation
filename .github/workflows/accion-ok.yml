@@ -1,0 +1,8 @@
+name: accion-ok
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - run: echo "Accion permitida y fijada por SHA -> corre"
